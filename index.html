@@ -1,0 +1,290 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RALLY HOUSE</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="RALLY HOUSE is an urban padel club built on competition, community and coaching. Book a court, join a league, own the court.">
+<meta name="theme-color" content="#101110">
+<link rel="icon" href="assets/logo/symbol-lime.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arrow" viewBox="0 0 24 14"><path d="M0 7h21M15 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.400"/></symbol>
+</svg>
+
+<!-- 01 NAVIGATION -->
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="RALLY HOUSE, back to top"><img src="assets/logo/logo-white.svg" alt="" width="210" height="24"></a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#club">The Club</a>
+    <a href="#courts">Courts</a>
+    <a href="#membership">Membership</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-end">
+    <button class="btn btn-lime btn-nav" data-action="book"><span class="long">Book a Court</span><span class="short">Book</span></button>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><i></i><i></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" inert>
+  <nav aria-label="Mobile">
+    <a href="#club">The Club</a>
+    <a href="#courts">Courts</a>
+    <a href="#membership">Membership</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="btn btn-lime btn-full" data-action="book">Book a Court</button>
+  <p class="label">Play Hard. Rally Harder.</p>
+</div>
+
+<main id="main">
+  <!-- 02 HERO -->
+  <section class="hero" id="top">
+    <div class="hero-media" data-parallax="0.12">
+      <img class="hero-img ph-img" src="assets/img/hero-lg.webp" srcset="assets/img/hero-sm.webp 800w, assets/img/hero-lg.webp 2223w" sizes="100vw" fetchpriority="high" alt="Padel players moving across a floodlit indoor court">
+    </div>
+    <p class="hero-vert" aria-hidden="true">Rally House / Play Hard. Rally Harder.</p>
+    <ul class="hero-tech label" aria-hidden="true">
+      <li>Court 20 × 10 M</li>
+      <li>12.97° N 77.59° E</li>
+    </ul>
+    <div class="hero-body">
+      <div class="hero-main">
+        <p class="label lime hero-up" style="--d:.1s">The City Plays Here.</p>
+        <h1 class="hero-title" aria-label="Own the court.">
+          <span class="line"><span style="--d:.2s">Own the</span></span>
+          <span class="line line-2"><span class="lime" style="--d:.5s">Court.</span></span>
+        </h1>
+      </div>
+      <div class="hero-side">
+        <p class="hero-up" style="--d:.85s">Step into a new kind of padel club. Play hard, meet your people and bring your game to another level.</p>
+        <div class="hero-cta hero-up" style="--d:1s">
+          <button class="btn btn-lime" data-action="book">Book Your Court</button>
+          <a class="btn btn-outline" href="#club">Explore the Club</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot label hero-up" style="--d:1.2s">
+      <p>6 Courts · All Skill Levels · Open Daily</p>
+      <a class="scroll-cue" href="#club"><span>Scroll</span><i></i></a>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-run" data-render="ticker"></div></div>
+
+  <!-- 03 INTRODUCTION -->
+  <section class="intro band" id="club">
+    <p class="intro-score" data-parallax="-0.08" aria-hidden="true">40:40</p>
+    <div class="wrap intro-grid">
+      <div class="intro-head">
+        <p class="label reveal">Not Just a Game. A Whole Culture.</p>
+        <h2 class="h2 split"><span class="ln"><span>Built for the</span></span> <span class="ln"><span>love of</span></span> <span class="ln"><span class="mark">the rally.</span></span></h2>
+      </div>
+      <div class="intro-copy">
+        <p class="lede reveal">It's fast. It's competitive. It's addictive.</p>
+        <p class="reveal" style="--d:.08s">Padel brings people together in a way few sports can. At RALLY HOUSE, we're building a space where first-timers find their feet, regulars find their rhythm and competitors come to test their limits.</p>
+        <p class="reveal strong" style="--d:.16s">No matter your level, there's a place for you on the court.</p>
+      </div>
+      <figure class="intro-fig ph wipe" data-pic="intro" data-sizes="(max-width: 800px) 60vw, 26vw" data-alt="Players talking courtside with their rackets between games"></figure>
+      <figure class="intro-wide ph wipe" data-pic="g-match" data-sizes="(max-width: 800px) 100vw, 60vw" data-alt="Two padel players mid-rally on a court"></figure>
+    </div>
+  </section>
+
+  <!-- 04 COURTS -->
+  <section class="courts band dark" id="courts">
+    <div class="wrap">
+      <header class="head-split">
+        <div>
+          <p class="label lime reveal">Pick Your Playground.</p>
+          <h2 class="h2 split"><span class="ln"><span>Three courts.</span></span> <span class="ln"><span>Infinite rallies.</span></span></h2>
+        </div>
+        <div class="head-note reveal">
+          <p>From fast-paced matches to relaxed doubles sessions, find the court that fits your game.</p>
+          <p class="label grey">3 court types · 6 courts in play</p>
+        </div>
+      </header>
+      <div class="court-grid" data-render="courts"></div>
+    </div>
+  </section>
+
+  <!-- 05 EXPERIENCE -->
+  <section class="experience band" id="experience">
+    <div class="wrap">
+      <header class="exp-head">
+        <div>
+          <p class="label reveal">Off the Court. Still in the Game.</p>
+          <h2 class="h2 split"><span class="ln"><span>Play hard.</span></span> <span class="ln"><span class="mark">Hang harder.</span></span></h2>
+        </div>
+        <div class="head-note reveal">
+          <p class="strong">The game doesn't end when the final point is played.</p>
+          <p>Grab a drink, catch up with your crew or stay for the next match. RALLY HOUSE is built for everything that happens around the court, too.</p>
+        </div>
+      </header>
+      <div class="exp-grid" data-render="experience"></div>
+    </div>
+  </section>
+
+  <!-- 06 MEMBERSHIP -->
+  <section class="membership band dark" id="membership">
+    <div class="wrap">
+      <header class="head-split">
+        <div>
+          <p class="label lime reveal">Get in the Game.</p>
+          <h2 class="h2 split"><span class="ln"><span>Find your</span></span> <span class="ln"><span>place here.</span></span></h2>
+        </div>
+        <p class="head-note reveal">More court time. Better access. More reasons to come back. Find the membership that matches your game.</p>
+      </header>
+      <div class="plans" data-render="plans"></div>
+    </div>
+  </section>
+
+  <!-- 07 TOURNAMENTS -->
+  <section class="events band graphite" id="events">
+    <div class="wrap">
+      <header class="head-split">
+        <div>
+          <p class="label orange reveal">Bring Your A-Game.</p>
+          <h2 class="h2 split"><span class="ln"><span>This is where</span></span> <span class="ln"><span>rallies become</span></span> <span class="ln"><span class="lime">rivalries.</span></span></h2>
+        </div>
+        <div class="head-note reveal">
+          <p class="strong">Friendly competition. Big moments. New challengers.</p>
+          <p>Join the action through our tournaments, social leagues and community events.</p>
+        </div>
+      </header>
+      <div class="events-grid">
+        <div class="event-list" data-render="events"></div>
+        <aside class="board reveal" aria-label="Leaderboard">
+          <div class="board-top">
+            <h3>Leaderboard</h3>
+            <span class="label grey">This season</span>
+          </div>
+          <div class="board-tabs" role="tablist" aria-label="Rankings" data-render="board-tabs"></div>
+          <div class="board-body" id="boardBody" role="tabpanel" tabindex="0"></div>
+        </aside>
+      </div>
+      <div class="events-foot reveal"><button class="btn btn-outline" data-action="events">View All Events</button></div>
+    </div>
+  </section>
+
+  <!-- 08 COACHING -->
+  <section class="coaching dark" id="coaching">
+    <div class="coach-media" data-render="coach-media"></div>
+    <div class="coach-body">
+      <p class="label lime reveal">Level Up Your Game.</p>
+      <h2 class="h2 split"><span class="ln"><span>Better every</span></span> <span class="ln"><span class="lime">single rally.</span></span></h2>
+      <p class="reveal">Whether you're picking up a racket for the first time or preparing for your next tournament, our coaching programmes help you sharpen your skills, improve your movement and play with confidence.</p>
+      <div class="coach-list reveal" data-render="coach-list"></div>
+      <button class="btn btn-lime reveal" data-action="coaching">Find Your Coaching Session</button>
+    </div>
+  </section>
+
+  <!-- 09 NUMBERS -->
+  <section class="numbers band" id="numbers">
+    <div class="wrap">
+      <header class="num-head">
+        <p class="label reveal">The Numbers Don't Lie.</p>
+        <h2 class="h2 split"><span class="ln"><span>A community</span></span> <span class="ln"><span>in full swing.</span></span></h2>
+      </header>
+      <dl class="stats" data-render="stats"></dl>
+      <div class="num-foot">
+        <p class="strong reveal">More players. More matches. More reasons to show up.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 GALLERY -->
+  <section class="gallery band" id="gallery">
+    <div class="wrap">
+      <header class="head-split">
+        <div>
+          <p class="label reveal">Caught on Court.</p>
+          <h2 class="h2 split"><span class="ln"><span>Play without</span></span> <span class="ln"><span class="mark">limits.</span></span></h2>
+        </div>
+      </header>
+      <div class="gal-grid" data-render="gallery"></div>
+    </div>
+  </section>
+
+  <!-- 12 FINAL CTA -->
+  <section class="final dark" id="visit">
+    <div class="final-media ph" data-parallax="0.06" data-pic="g-player" data-sizes="100vw" data-alt="Player ready at the baseline on a padel court"></div>
+    <div class="final-body wrap">
+      <p class="label lime reveal">Your Move.</p>
+      <h2 class="final-title split"><span class="ln"><span>Your game.</span></span> <span class="ln"><span class="lime">Your rules.</span></span></h2>
+      <div class="final-row">
+        <p class="reveal">Here for the game, the people or a bit of both? Get on court and find out what the city's been playing for.</p>
+        <div class="hero-cta reveal">
+          <button class="btn btn-lime" data-action="book">Book Your First Court</button>
+          <a class="btn btn-outline" href="#membership">Become a Member</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 13 FOOTER -->
+<footer class="footer dark" id="contact">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="foot-marks">
+          <img src="assets/logo/monogram-light.svg" alt="RH monogram" width="72" height="72">
+          <img class="foot-sym" src="assets/logo/symbol-white.svg" alt="" width="72" height="72">
+        </div>
+        <p class="foot-tag">Own the court.</p>
+        <address data-render="contact"></address>
+      </div>
+      <nav class="foot-col" aria-label="The Club">
+        <h3 class="label grey">The Club</h3>
+        <a href="#club">Our Story</a>
+        <a href="#courts">Courts</a>
+        <a href="#experience">Facilities</a>
+        <a href="#coaching">Coaching</a>
+      </nav>
+      <nav class="foot-col" aria-label="Play">
+        <h3 class="label grey">Play</h3>
+        <a href="#membership">Membership</a>
+        <a href="#events">Events</a>
+        <a href="#numbers">Community</a>
+      </nav>
+      <nav class="foot-col" aria-label="Get in touch">
+        <h3 class="label grey">Get in Touch</h3>
+        <button data-action="contact">Contact Us</button>
+        <button data-action="location">Location</button>
+        <button data-action="faq">FAQs</button>
+      </nav>
+      <nav class="foot-col" aria-label="Follow along">
+        <h3 class="label grey">Follow</h3>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+    </div>
+    <img class="foot-word" src="assets/logo/wordmark-lime.svg" alt="RALLY HOUSE">
+    <div class="foot-bottom label">
+      <p>© 2026 RALLY HOUSE. Play Hard. Rally Harder.</p>
+      <p><button data-action="legal" data-arg="privacy">Privacy Policy</button> · <button data-action="legal" data-arg="terms">Terms &amp; Conditions</button></p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="modalTitle"><div class="modal-inner" id="modalInner"></div></dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <button class="sq lb-close" data-lb="close" aria-label="Close photo viewer">×</button>
+  <button class="sq lb-prev" data-lb="prev" aria-label="Previous photo"><svg class="flip" aria-hidden="true"><use href="#arrow"/></svg></button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap" class="label"></figcaption></figure>
+  <button class="sq lb-next" data-lb="next" aria-label="Next photo"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+</dialog>
+
+<script src="js/content.js" charset="utf-8"></script>
+<script src="js/app.js"></script>
